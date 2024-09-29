@@ -76,6 +76,7 @@ all_df['order_purchase_timestamp'] = pd.to_datetime(all_df['order_purchase_times
 # Sidebar untuk memilih rentang tanggal
 with st.sidebar:
     st.write("Silahkan Filter Data")
+    st.image("https://github.com/dwipratiwiaprilya/ProyekAnalisisData/blob/main/assets/Shopiverse.png?raw=true")
     start_date = st.sidebar.date_input("Tanggal Mulai", value=pd.to_datetime('2018-01-01'))
     end_date = st.sidebar.date_input("Tanggal Akhir", value=pd.to_datetime('2018-12-31'))
 
