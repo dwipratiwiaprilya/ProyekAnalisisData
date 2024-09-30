@@ -113,7 +113,7 @@ def segment_customer(df):
 
 
 # Load the data
-all_df = pd.read_csv("dashboard/data.csv")
+all_df = pd.read_csv("data.csv")
 
 # Convert the 'order_purchase_timestamp' column to datetime
 all_df['order_purchase_timestamp'] = pd.to_datetime(all_df['order_purchase_timestamp'])
