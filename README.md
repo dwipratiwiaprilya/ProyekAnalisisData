@@ -1,6 +1,6 @@
 # E-Commerce Public Dataset Dashboard 🛒  
 
-##Streamlit Environment Setup
+## Streamlit Environment Setup
 ```
 pip install streamlit
 conda activate main-ds
