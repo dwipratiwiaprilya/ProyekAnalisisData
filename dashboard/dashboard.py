@@ -406,4 +406,6 @@ with tabs[3]:
 
     # Display the segment distribution in Streamlit
     st.pyplot(fig_segment)
+    
+    
 
